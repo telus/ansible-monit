@@ -13,13 +13,13 @@ Tunables
 
 Dependencies
 ------------
-* [colstrom.logrotate](https://github.com/colstrom/ansible-logrotate/)
+* [telusdigital.logrotate](https://github.com/telusdigital/ansible-logrotate/)
 
 Example Playbook
 ----------------
     - hosts: servers
       roles:
-         - role: colstrom.monit
+         - role: telusdigital.monit
            monit_user: root
            monit_poll_rate: 15
 
